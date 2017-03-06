@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Weather App</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+
+<div class="container-fluid">
+  <h1 class="text-center" style='font-family: Pacifico'>Weather Boy</h1>
+<h2 class="text-center"  id="cityName">Couldn't fetch your location, click on 'Is it blank?'</h2>
+    <p class="text-center thick">Current Temperature</p>
+<p class="text-center"  id="temp"></p>
+  <p class="text-center thick ">Feels Like</p>
+  <p class="text-center"  id="feelsLike"></p>
+  <p class="text-center thick">Description</p>
+<p class="text-center"  id="description"></p>
+<div class="center-block" id="icon"></div><br>
+  <p class="text-center thick">Humidity</p>
+<p class="text-center"  id="humidity"></p>
+  <p class="text-center thick">Wind Speed & Direction</p>
+<p class="text-center"  id="windSpeed"></p>
+  <p class="text-center thick">Precipitation</p>
+<p class="text-center"  id="precipitation"></p>
+  <p class="text-center thick">Last Updated On</p>
+  <p class="text-center" id="lastUpdated"></p>
+  
+<input id="metric" class="btn btn-default center-block" type="button" value="Celcius">
+
+<input id="imperial" class="btn btn-default center-block" type="button" value="Fahrenheit">
+  
+  <a href="https://codepen.io/rohandurugkar/full/Xpzrxp" target='_blank'><input class="btn btn-default center-block" type="button" value="Is it blank?"></a>
+</div>
+
+<p class='text-center' style='margin-top: 80px;'>API consumed from <a href="http://apixu.com" target=_blank>apixu</a></p>
+<a href="https://twitter.com/DurugkarRohan" target="_blank"><p class="text-center">@durugkarrohan</p></a>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
